@@ -1,0 +1,46 @@
+.body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.containor {
+    font-family: Arial;
+    width: 100%;
+    left: 100px;
+    position: relative;
+    padding: 200px;
+}
+
+.standard {
+
+    width: 200px;
+    height: 200px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    margin: 15px;
+    padding: 15px;
+    border: 15px solid plum;
+    background: palevioletred;
+    line-height: 200px;
+    text-align: center;
+    box-shadow: -10px 0 10px red, /*左边阴影*/ 10px 0 10px yellow, /*右边阴影*/ 0 -10px 10px blue, /*顶部阴影*/ 0 10px 10px green; /*底边阴影*/
+
+}
+
+.anstandard {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    padding: 15px;
+    border: 15px solid plum;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: palevioletred;
+    line-height: 140px;
+    text-align: center;
+    box-shadow: -10px 0 10px red inset,
+    10px 0 10px yellow inset,
+    0 -10px 10px blue inset,
+    0 10px 10px green inset;
+}
